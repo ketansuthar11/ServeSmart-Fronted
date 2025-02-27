@@ -7,7 +7,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
 
     if (email && password && role) {
         if (role === "student") {
-            window.location.href = 'dashboard.html';
+            window.location.href = 'student.html';
         } else if (role === "admin") {
             window.location.href = 'admin.html';
         } else {
